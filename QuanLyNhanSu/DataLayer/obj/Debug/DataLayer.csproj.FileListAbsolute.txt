@@ -1,0 +1,12 @@
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\DataLayer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\DataLayer.pdb
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\obj\Debug\DataLayer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\obj\Debug\DataLayer.pdb
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\DataLayer.dll.config
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\EntityFramework.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\EntityFramework.xml
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\DataLayer\obj\Debug\DataLayer.csproj.Up2Date

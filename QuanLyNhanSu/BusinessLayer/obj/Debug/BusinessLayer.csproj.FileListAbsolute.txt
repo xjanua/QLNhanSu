@@ -1,0 +1,15 @@
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\DataLayer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\DataLayer.dll.config
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\BusinessLayer\obj\Debug\BusinessLayer.pdb

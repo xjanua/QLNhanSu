@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57DA214-677D-43EC-BEB0-096E899CF84F}|BusinessLayer\\BusinessLayer.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\businesslayer\\nhanvien_nangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57DA214-677D-43EC-BEB0-096E899CF84F}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\nhanvien_nangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 347,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmQuanLyLuong.cs",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs",
+              "RelativeDocumentMoniker": "QLNHANSU\\frmQuanLyLuong.cs",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs",
+              "RelativeToolTip": "QLNHANSU\\frmQuanLyLuong.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAIAwwKwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:57:39.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmQuanLyLuong.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs",
+              "RelativeDocumentMoniker": "QLNHANSU\\frmQuanLyLuong.cs",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs [Design]",
+              "RelativeToolTip": "QLNHANSU\\frmQuanLyLuong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:31:40.704Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NHANVIEN_NANGLUONG.cs",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\BusinessLayer\\NHANVIEN_NANGLUONG.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\NHANVIEN_NANGLUONG.cs",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\BusinessLayer\\NHANVIEN_NANGLUONG.cs",
+              "RelativeToolTip": "BusinessLayer\\NHANVIEN_NANGLUONG.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA8wBwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:49:24.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
