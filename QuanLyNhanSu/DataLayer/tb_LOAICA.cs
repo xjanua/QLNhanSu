@@ -23,6 +23,12 @@ namespace DataLayer
         public int IDLOAICA { get; set; }
         public string TENLOAICA { get; set; }
         public Nullable<double> HESO { get; set; }
+        public Nullable<int> CREATED_BY { get; set; }
+        public Nullable<System.DateTime> CREATED_DATE { get; set; }
+        public Nullable<int> UPDATED_BY { get; set; }
+        public Nullable<System.DateTime> UPDATED_DATE { get; set; }
+        public Nullable<int> DELETED_BY { get; set; }
+        public Nullable<System.DateTime> DELETED_DATE { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<tb_TANGCA> tb_TANGCA { get; set; }

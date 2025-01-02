@@ -31,18 +31,21 @@ namespace DataLayer
         public virtual DbSet<tb_CONGTY> tb_CONGTY { get; set; }
         public virtual DbSet<tb_CHUCVU> tb_CHUCVU { get; set; }
         public virtual DbSet<tb_DANTOC> tb_DANTOC { get; set; }
+        public virtual DbSet<tb_HOPDONG> tb_HOPDONG { get; set; }
         public virtual DbSet<tb_LOAICA> tb_LOAICA { get; set; }
         public virtual DbSet<tb_LOAICONG> tb_LOAICONG { get; set; }
+        public virtual DbSet<tb_NhanVien> tb_NhanVien { get; set; }
+        public virtual DbSet<tb_NHANVIEN_NANGLUONG> tb_NHANVIEN_NANGLUONG { get; set; }
         public virtual DbSet<tb_NHANVIEN_PHUCAP> tb_NHANVIEN_PHUCAP { get; set; }
+        public virtual DbSet<tb_NHANVIEN_THOIVIEC> tb_NHANVIEN_THOIVIEC { get; set; }
         public virtual DbSet<tb_PHONGBAN> tb_PHONGBAN { get; set; }
         public virtual DbSet<tb_PHUCAP> tb_PHUCAP { get; set; }
         public virtual DbSet<tb_TANGCA> tb_TANGCA { get; set; }
         public virtual DbSet<tb_TONGIAO> tb_TONGIAO { get; set; }
         public virtual DbSet<tb_TRINHDO> tb_TRINHDO { get; set; }
-        public virtual DbSet<tb_HOPDONG> tb_HOPDONG { get; set; }
-        public virtual DbSet<tb_NhanVien> tb_NhanVien { get; set; }
         public virtual DbSet<tb_UNGLUONG> tb_UNGLUONG { get; set; }
-        public virtual DbSet<tb_NHANVIEN_THOIVIEC> tb_NHANVIEN_THOIVIEC { get; set; }
-        public virtual DbSet<tb_NHANVIEN_NANGLUONG> tb_NHANVIEN_NANGLUONG { get; set; }
+        public virtual DbSet<tb_KYCONGCHITIET> tb_KYCONGCHITIET { get; set; }
+        public virtual DbSet<tb_KYCONG> tb_KYCONG { get; set; }
+        public virtual DbSet<tb_BANGCONG_NV_CT> tb_BANGCONG_NV_CT { get; set; }
     }
 }

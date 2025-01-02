@@ -107,3 +107,9 @@ D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.frmKhenThu
 D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.Reports.rptHopDongLaoDong.resources
 D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.frmTHOIVIEC.resources
 D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.frmQuanLyLuong.resources
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.CHAMCONG.frmLoaiCa.resources
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.CHAMCONG.frmLoaiCong.resources
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.CHAMCONG.frmBangCong.resources
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.CHAMCONG.frmBangCongChiTiet.resources
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.frmWaiting.resources
+D:\Projects\ProjectsC#_Super\QuanLyNhanSu\QLNHANSU\obj\Debug\QLNHANSU.CHAMCONG.frmCapNhatNgayCong.resources

@@ -4,41 +4,44 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="7edda92d41d04b38be74655994ddb8bc" Name="Diagram1" ZoomLevel="79">
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BANGCONG" Width="1.5" PointX="5.25" PointY="10.125" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BAOHIEM" Width="1.5" PointX="5.25" PointY="21" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BOPHAN" Width="1.5" PointX="0.75" PointY="14.125" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_CONGTY" Width="1.5" PointX="0.75" PointY="7.125" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_CHUCVU" Width="1.5" PointX="0.75" PointY="11" />
+      <Diagram DiagramId="7edda92d41d04b38be74655994ddb8bc" Name="Diagram1" ZoomLevel="29">
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BANGCONG" Width="1.5" PointX="8.25" PointY="7" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BAOHIEM" Width="1.5" PointX="5.25" PointY="7.25" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BOPHAN" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_CONGTY" Width="1.5" PointX="0.75" PointY="8" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_CHUCVU" Width="1.5" PointX="0.75" PointY="17.25" />
         <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_DANTOC" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_LOAICA" Width="1.5" PointX="3" PointY="5.875" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_LOAICONG" Width="1.5" PointX="3" PointY="15.875" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NHANVIEN_PHUCAP" Width="1.5" PointX="8.25" PointY="10.5" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_PHONGBAN" Width="1.5" PointX="0.75" PointY="16.375" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_PHUCAP" Width="1.5" PointX="6" PointY="17.875" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_TANGCA" Width="1.5" PointX="5.25" PointY="6.375" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_TONGIAO" Width="1.5" PointX="2.75" PointY="0.75" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_TRINHDO" Width="1.5" PointX="0.75" PointY="18.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_HOPDONG" Width="1.5" PointX="5.25" PointY="17.125" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_LOAICA" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_LOAICONG" Width="1.5" PointX="6" PointY="3.125" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NhanVien" Width="1.5" PointX="3" PointY="9.375" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NHANVIEN_NANGLUONG" Width="1.5" PointX="10.75" PointY="5.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NHANVIEN_PHUCAP" Width="1.5" PointX="8.25" PointY="11.375" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NHANVIEN_THOIVIEC" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_PHONGBAN" Width="1.5" PointX="0.75" PointY="19.625" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_PHUCAP" Width="1.5" PointX="6" PointY="22.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_TANGCA" Width="1.5" PointX="5.25" PointY="11.25" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_TONGIAO" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_TRINHDO" Width="1.5" PointX="0.75" PointY="14.875" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_UNGLUONG" Width="1.5" PointX="5.25" PointY="26.125" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_BANGCONG_tb_LOAICONG" />
-        <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_TANGCA_tb_LOAICA" />
-        <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NHANVIEN_PHUCAP_tb_PHUCAP" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_HOPDONG" Width="1.5" PointX="5.25" PointY="0.75" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NhanVien" Width="1.5" PointX="3" PointY="8.5" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_UNGLUONG" Width="1.5" PointX="5.25" PointY="24.5" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_BANGCONG_tb_NhanVien" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_BAOHIEM_tb_NhanVien" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NhanVien_tb_BOPHAN" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NhanVien_tb_CONGTY1" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NhanVien_tb_CHUCVU" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_HOPDONG_tb_NhanVien" />
+        <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_TANGCA_tb_LOAICA" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NHANVIEN_PHUCAP_tb_NhanVien" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NhanVien_tb_PHONGBAN" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NhanVien_tb_TRINHDO" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_TANGCA_tb_NhanVien" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_UNGLUONG_tb_NhanVien" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NHANVIEN_THOIVIEC" Width="1.5" PointX="7.375" PointY="0.75" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_NHANVIEN_NANGLUONG" Width="1.5" PointX="7.375" PointY="5.75" />
-        </Diagram>
+        <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NHANVIEN_PHUCAP_tb_PHUCAP" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_KYCONGCHITIET" Width="1.5" PointX="10.375" PointY="10.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_KYCONG" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BANGCONG_NV_CT" Width="1.5" PointX="12.375" PointY="10.75" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

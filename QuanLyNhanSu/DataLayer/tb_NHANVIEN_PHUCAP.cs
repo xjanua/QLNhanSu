@@ -21,7 +21,7 @@ namespace DataLayer
         public string NOIDUNG { get; set; }
         public Nullable<double> SOTIEN { get; set; }
     
-        public virtual tb_PHUCAP tb_PHUCAP { get; set; }
         public virtual tb_NhanVien tb_NhanVien { get; set; }
+        public virtual tb_PHUCAP tb_PHUCAP { get; set; }
     }
 }

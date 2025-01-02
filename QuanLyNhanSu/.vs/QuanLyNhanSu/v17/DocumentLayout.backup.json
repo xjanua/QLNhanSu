@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\chamcong\\frmbangcongchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\chamcong\\frmbangcongchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\frmquanlyluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\chamcong\\frmcapnhatngaycong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\chamcong\\frmcapnhatngaycong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D57DA214-677D-43EC-BEB0-096E899CF84F}|BusinessLayer\\BusinessLayer.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\businesslayer\\nhanvien_nangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57DA214-677D-43EC-BEB0-096E899CF84F}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\nhanvien_nangluong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49371295-10CD-4DE8-8B3B-5F0FAC9E973D}|DataLayer\\DataLayer.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\datalayer\\qlns.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{49371295-10CD-4DE8-8B3B-5F0FAC9E973D}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\qlns.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|d:\\projects\\projectsc#_super\\quanlynhansu\\qlnhansu\\chamcong\\frmbangcongchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEC42767-24D0-46BA-BE87-0A9789259C40}|QLNHANSU\\QLNHANSU.csproj|solutionrelative:qlnhansu\\chamcong\\frmbangcongchitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 347,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmQuanLyLuong.cs",
-              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs",
-              "RelativeDocumentMoniker": "QLNHANSU\\frmQuanLyLuong.cs",
-              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs",
-              "RelativeToolTip": "QLNHANSU\\frmQuanLyLuong.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAMwJcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T12:57:39.402Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "QLNS.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\DataLayer\\QLNS.edmx",
+              "RelativeDocumentMoniker": "DataLayer\\QLNS.edmx",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\DataLayer\\QLNS.edmx [Diagram1]",
+              "RelativeToolTip": "DataLayer\\QLNS.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-02T10:36:17.335Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmQuanLyLuong.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs",
-              "RelativeDocumentMoniker": "QLNHANSU\\frmQuanLyLuong.cs",
-              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\frmQuanLyLuong.cs [Design]",
-              "RelativeToolTip": "QLNHANSU\\frmQuanLyLuong.cs [Design]",
+              "Title": "frmCapNhatNgayCong.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\CHAMCONG\\frmCapNhatNgayCong.cs",
+              "RelativeDocumentMoniker": "QLNHANSU\\CHAMCONG\\frmCapNhatNgayCong.cs",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\CHAMCONG\\frmCapNhatNgayCong.cs [Design]",
+              "RelativeToolTip": "QLNHANSU\\CHAMCONG\\frmCapNhatNgayCong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T12:31:40.704Z",
+              "WhenOpened": "2025-01-02T09:04:05.229Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NHANVIEN_NANGLUONG.cs",
-              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\BusinessLayer\\NHANVIEN_NANGLUONG.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\NHANVIEN_NANGLUONG.cs",
-              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\BusinessLayer\\NHANVIEN_NANGLUONG.cs",
-              "RelativeToolTip": "BusinessLayer\\NHANVIEN_NANGLUONG.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA8wBwAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmBangCongChiTiet.cs",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs",
+              "RelativeDocumentMoniker": "QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs",
+              "RelativeToolTip": "QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAuwAgBAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T12:49:24.434Z",
+              "WhenOpened": "2025-01-02T09:05:42.312Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmBangCongChiTiet.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs",
+              "RelativeDocumentMoniker": "QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs",
+              "ToolTip": "D:\\Projects\\ProjectsC#_Super\\QuanLyNhanSu\\QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs [Design]",
+              "RelativeToolTip": "QLNHANSU\\CHAMCONG\\frmBangCongChiTiet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:05:35.484Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

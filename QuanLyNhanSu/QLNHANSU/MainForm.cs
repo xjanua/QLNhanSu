@@ -1,10 +1,13 @@
-﻿using System;
+﻿using DevExpress.XtraSplashScreen;
+using QLNHANSU.CHAMCONG;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QLNHANSU
@@ -71,14 +74,21 @@ namespace QLNHANSU
             openForm(typeof(frmChucVu));
         }
 
-        private void btnNhanVien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private async void btnNhanVien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            SplashScreenManager.ShowForm(typeof(frmWaiting), true, true);
+            await Task.Delay(2000);
             openForm(typeof(frmNhanVien));
+            SplashScreenManager.CloseForm();
         }
 
-        private void btnHopDong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private async void btnHopDong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            SplashScreenManager.ShowForm(typeof(frmWaiting), true, true);
+            await Task.Delay(2000);
+            
             openForm(typeof(frmHopDongLaoDong));
+            SplashScreenManager.CloseForm();
         }
 
         private void btnThoiViec_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -94,6 +104,25 @@ namespace QLNHANSU
         private void btnLuong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             openForm(typeof(frmQuanLyLuong));
+        }
+
+        private void btnLoaiCa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            openForm(typeof(frmLoaiCa));
+        }
+
+        private void btnLoaiCong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            openForm(typeof(frmLoaiCong));
+        }
+
+        private async void btnBangCong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            SplashScreenManager.ShowForm(typeof(frmWaiting), true, true);
+            await Task.Delay(2000);
+
+            openForm(typeof(frmBangCong));
+            SplashScreenManager.CloseForm();
         }
     }
 }
