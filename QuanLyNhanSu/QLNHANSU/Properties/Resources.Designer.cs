@@ -63,6 +63,16 @@ namespace QLNHANSU.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_341773904_wLeSTVp07MoYNVa1r85kNnjKKpVr5qns {
+            get {
+                object obj = ResourceManager.GetObject("360_F_341773904_wLeSTVp07MoYNVa1r85kNnjKKpVr5qns", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap no_picture_available_icon_20 {
             get {
                 object obj = ResourceManager.GetObject("no-picture-available-icon-20", resourceCulture);

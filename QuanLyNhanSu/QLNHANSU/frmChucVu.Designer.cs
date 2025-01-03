@@ -67,7 +67,7 @@
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(269, 41);
+            this.txtTen.Location = new System.Drawing.Point(120, 34);
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(216, 21);
             this.txtTen.TabIndex = 1;
@@ -76,7 +76,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(178, 41);
+            this.labelControl1.Location = new System.Drawing.Point(29, 35);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(88, 18);
             this.labelControl1.TabIndex = 0;
@@ -88,7 +88,7 @@
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 405);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 516);
             // 
             // barManager1
             // 
@@ -204,23 +204,23 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(728, 24);
+            this.barDockControlTop.Size = new System.Drawing.Size(1130, 24);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 429);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 540);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(728, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1130, 20);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(728, 24);
+            this.barDockControlRight.Location = new System.Drawing.Point(1130, 24);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 405);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 516);
             // 
             // IDCV
             // 
@@ -265,7 +265,7 @@
             this.gcDanhSach.MainView = this.gvDanhSach;
             this.gcDanhSach.MenuManager = this.barManager1;
             this.gcDanhSach.Name = "gcDanhSach";
-            this.gcDanhSach.Size = new System.Drawing.Size(728, 305);
+            this.gcDanhSach.Size = new System.Drawing.Size(1130, 433);
             this.gcDanhSach.TabIndex = 0;
             this.gcDanhSach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvDanhSach});
@@ -285,15 +285,15 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.gcDanhSach);
-            this.splitContainer1.Size = new System.Drawing.Size(728, 405);
-            this.splitContainer1.SplitterDistance = 96;
+            this.splitContainer1.Size = new System.Drawing.Size(1130, 516);
+            this.splitContainer1.SplitterDistance = 79;
             this.splitContainer1.TabIndex = 6;
             // 
             // frmChucVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 449);
+            this.ClientSize = new System.Drawing.Size(1130, 560);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);

@@ -104,7 +104,7 @@
             this.gcDanhSach.MainView = this.gvDanhSach;
             this.gcDanhSach.MenuManager = this.barManager1;
             this.gcDanhSach.Name = "gcDanhSach";
-            this.gcDanhSach.Size = new System.Drawing.Size(742, 342);
+            this.gcDanhSach.Size = new System.Drawing.Size(742, 376);
             this.gcDanhSach.TabIndex = 0;
             this.gcDanhSach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvDanhSach});
@@ -249,7 +249,7 @@
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(238, 37);
+            this.txtTen.Location = new System.Drawing.Point(120, 37);
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(216, 21);
             this.txtTen.TabIndex = 1;
@@ -258,7 +258,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(147, 37);
+            this.labelControl1.Location = new System.Drawing.Point(29, 38);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(88, 18);
             this.labelControl1.TabIndex = 0;
@@ -280,7 +280,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.gcDanhSach);
             this.splitContainer1.Size = new System.Drawing.Size(742, 454);
-            this.splitContainer1.SplitterDistance = 108;
+            this.splitContainer1.SplitterDistance = 74;
             this.splitContainer1.TabIndex = 5;
             // 
             // barButtonItem1

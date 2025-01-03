@@ -35,6 +35,7 @@
           <Property Name="NGAYPHEP" Type="float" />
           <Property Name="CONGNGAYLE" Type="float" />
           <Property Name="CONGCHUNHAT" Type="float" />
+          <Property Name="NGAYCONG" Type="float" />
           <Property Name="KYHIEU" Type="nvarchar" MaxLength="50" />
           <Property Name="GHICHU" Type="nvarchar" MaxLength="500" />
           <Property Name="CREATED BY" Type="int" />
@@ -109,7 +110,7 @@
           <Key>
             <PropertyRef Name="MAKYCONG" />
           </Key>
-          <Property Name="MAKYCONG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MAKYCONG" Type="int" Nullable="false" />
           <Property Name="THANG" Type="int" />
           <Property Name="NAM" Type="int" />
           <Property Name="KHOA" Type="bit" />
@@ -654,8 +655,8 @@
             <End Role="tb_NHANVIEN_PHUCAP" EntitySet="tb_NHANVIEN_PHUCAP" />
           </AssociationSet>
           <EntitySet Name="tb_KYCONGCHITIET" EntityType="QuanLyNhanSuModel.tb_KYCONGCHITIET" />
-          <EntitySet Name="tb_KYCONG" EntityType="QuanLyNhanSuModel.tb_KYCONG" />
           <EntitySet Name="tb_BANGCONG_NV_CT" EntityType="QuanLyNhanSuModel.tb_BANGCONG_NV_CT" />
+          <EntitySet Name="tb_KYCONG" EntityType="QuanLyNhanSuModel.tb_KYCONG" />
         </EntityContainer>
         <EntityType Name="tb_BANGCONG">
           <Key>
@@ -1131,25 +1132,6 @@
           <Property Name="UPDATED_BY" Type="Int32" />
           <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
         </EntityType>
-        <EntityType Name="tb_KYCONG">
-          <Key>
-            <PropertyRef Name="MAKYCONG" />
-          </Key>
-          <Property Name="MAKYCONG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="THANG" Type="Int32" />
-          <Property Name="NAM" Type="Int32" />
-          <Property Name="KHOA" Type="Boolean" />
-          <Property Name="NGAYTINHCONG" Type="DateTime" Precision="3" />
-          <Property Name="NGAYCONGTRONGTHANG" Type="Double" />
-          <Property Name="MACTY" Type="Int32" />
-          <Property Name="TRANGTHAI" Type="Boolean" />
-          <Property Name="CREATED_BY" Type="Int32" />
-          <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
-          <Property Name="UPDATED_BY" Type="Int32" />
-          <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
-          <Property Name="DELETED_BY" Type="Int32" />
-          <Property Name="DELETED_DATE" Type="DateTime" Precision="3" />
-        </EntityType>
         <EntityType Name="tb_BANGCONG_NV_CT">
           <Key>
             <PropertyRef Name="ID" />
@@ -1166,12 +1148,32 @@
           <Property Name="NGAYPHEP" Type="Double" />
           <Property Name="CONGNGAYLE" Type="Double" />
           <Property Name="CONGCHUNHAT" Type="Double" />
+          <Property Name="NGAYCONG" Type="Double" />
           <Property Name="KYHIEU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="GHICHU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="CREATED_BY" Type="Int32" />
           <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
           <Property Name="UPDATED_BY" Type="Int32" />
           <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="tb_KYCONG">
+          <Key>
+            <PropertyRef Name="MAKYCONG" />
+          </Key>
+          <Property Name="MAKYCONG" Type="Int32" Nullable="false" />
+          <Property Name="THANG" Type="Int32" />
+          <Property Name="NAM" Type="Int32" />
+          <Property Name="KHOA" Type="Boolean" />
+          <Property Name="NGAYTINHCONG" Type="DateTime" Precision="3" />
+          <Property Name="NGAYCONGTRONGTHANG" Type="Double" />
+          <Property Name="MACTY" Type="Int32" />
+          <Property Name="TRANGTHAI" Type="Boolean" />
+          <Property Name="CREATED_BY" Type="Int32" />
+          <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
+          <Property Name="UPDATED_BY" Type="Int32" />
+          <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
+          <Property Name="DELETED_BY" Type="Int32" />
+          <Property Name="DELETED_DATE" Type="DateTime" Precision="3" />
         </EntityType>
         </Schema>
     </edmx:ConceptualModels>
@@ -1476,6 +1478,31 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="tb_BANGCONG_NV_CT">
+            <EntityTypeMapping TypeName="QuanLyNhanSuModel.tb_BANGCONG_NV_CT">
+              <MappingFragment StoreEntitySet="tb_BANGCONG_NV_CT">
+                <ScalarProperty Name="UPDATED_DATE" ColumnName="UPDATED DATE" />
+                <ScalarProperty Name="UPDATED_BY" ColumnName="UPDATED BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED DATE" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED BY" />
+                <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+                <ScalarProperty Name="KYHIEU" ColumnName="KYHIEU" />
+                <ScalarProperty Name="NGAYCONG" ColumnName="NGAYCONG" />
+                <ScalarProperty Name="CONGCHUNHAT" ColumnName="CONGCHUNHAT" />
+                <ScalarProperty Name="CONGNGAYLE" ColumnName="CONGNGAYLE" />
+                <ScalarProperty Name="NGAYPHEP" ColumnName="NGAYPHEP" />
+                <ScalarProperty Name="GIORA" ColumnName="GIORA" />
+                <ScalarProperty Name="GIOVAO" ColumnName="GIOVAO" />
+                <ScalarProperty Name="THU" ColumnName="THU" />
+                <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+                <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+                <ScalarProperty Name="MANV" ColumnName="MANV" />
+                <ScalarProperty Name="MACTY" ColumnName="MACTY" />
+                <ScalarProperty Name="MAKYCONG" ColumnName="MAKYCONG" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="tb_KYCONG">
             <EntityTypeMapping TypeName="QuanLyNhanSuModel.tb_KYCONG">
               <MappingFragment StoreEntitySet="tb_KYCONG">
@@ -1493,30 +1520,6 @@
                 <ScalarProperty Name="NAM" ColumnName="NAM" />
                 <ScalarProperty Name="THANG" ColumnName="THANG" />
                 <ScalarProperty Name="MAKYCONG" ColumnName="MAKYCONG" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="tb_BANGCONG_NV_CT">
-            <EntityTypeMapping TypeName="QuanLyNhanSuModel.tb_BANGCONG_NV_CT">
-              <MappingFragment StoreEntitySet="tb_BANGCONG_NV_CT">
-                <ScalarProperty Name="UPDATED_DATE" ColumnName="UPDATED DATE" />
-                <ScalarProperty Name="UPDATED_BY" ColumnName="UPDATED BY" />
-                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED DATE" />
-                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED BY" />
-                <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
-                <ScalarProperty Name="KYHIEU" ColumnName="KYHIEU" />
-                <ScalarProperty Name="CONGCHUNHAT" ColumnName="CONGCHUNHAT" />
-                <ScalarProperty Name="CONGNGAYLE" ColumnName="CONGNGAYLE" />
-                <ScalarProperty Name="NGAYPHEP" ColumnName="NGAYPHEP" />
-                <ScalarProperty Name="GIORA" ColumnName="GIORA" />
-                <ScalarProperty Name="GIOVAO" ColumnName="GIOVAO" />
-                <ScalarProperty Name="THU" ColumnName="THU" />
-                <ScalarProperty Name="NGAY" ColumnName="NGAY" />
-                <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
-                <ScalarProperty Name="MANV" ColumnName="MANV" />
-                <ScalarProperty Name="MACTY" ColumnName="MACTY" />
-                <ScalarProperty Name="MAKYCONG" ColumnName="MAKYCONG" />
-                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

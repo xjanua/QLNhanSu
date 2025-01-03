@@ -67,7 +67,7 @@
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(267, 35);
+            this.txtTen.Location = new System.Drawing.Point(138, 34);
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(216, 21);
             this.txtTen.TabIndex = 1;
@@ -76,7 +76,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(156, 35);
+            this.labelControl1.Location = new System.Drawing.Point(27, 35);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(105, 18);
             this.labelControl1.TabIndex = 0;

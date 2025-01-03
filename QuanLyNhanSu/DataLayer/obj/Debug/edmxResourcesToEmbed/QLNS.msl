@@ -298,6 +298,31 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="tb_BANGCONG_NV_CT">
+      <EntityTypeMapping TypeName="QuanLyNhanSuModel.tb_BANGCONG_NV_CT">
+        <MappingFragment StoreEntitySet="tb_BANGCONG_NV_CT">
+          <ScalarProperty Name="UPDATED_DATE" ColumnName="UPDATED DATE" />
+          <ScalarProperty Name="UPDATED_BY" ColumnName="UPDATED BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED DATE" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED BY" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="KYHIEU" ColumnName="KYHIEU" />
+          <ScalarProperty Name="NGAYCONG" ColumnName="NGAYCONG" />
+          <ScalarProperty Name="CONGCHUNHAT" ColumnName="CONGCHUNHAT" />
+          <ScalarProperty Name="CONGNGAYLE" ColumnName="CONGNGAYLE" />
+          <ScalarProperty Name="NGAYPHEP" ColumnName="NGAYPHEP" />
+          <ScalarProperty Name="GIORA" ColumnName="GIORA" />
+          <ScalarProperty Name="GIOVAO" ColumnName="GIOVAO" />
+          <ScalarProperty Name="THU" ColumnName="THU" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="MACTY" ColumnName="MACTY" />
+          <ScalarProperty Name="MAKYCONG" ColumnName="MAKYCONG" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="tb_KYCONG">
       <EntityTypeMapping TypeName="QuanLyNhanSuModel.tb_KYCONG">
         <MappingFragment StoreEntitySet="tb_KYCONG">
@@ -315,30 +340,6 @@
           <ScalarProperty Name="NAM" ColumnName="NAM" />
           <ScalarProperty Name="THANG" ColumnName="THANG" />
           <ScalarProperty Name="MAKYCONG" ColumnName="MAKYCONG" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="tb_BANGCONG_NV_CT">
-      <EntityTypeMapping TypeName="QuanLyNhanSuModel.tb_BANGCONG_NV_CT">
-        <MappingFragment StoreEntitySet="tb_BANGCONG_NV_CT">
-          <ScalarProperty Name="UPDATED_DATE" ColumnName="UPDATED DATE" />
-          <ScalarProperty Name="UPDATED_BY" ColumnName="UPDATED BY" />
-          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED DATE" />
-          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED BY" />
-          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
-          <ScalarProperty Name="KYHIEU" ColumnName="KYHIEU" />
-          <ScalarProperty Name="CONGCHUNHAT" ColumnName="CONGCHUNHAT" />
-          <ScalarProperty Name="CONGNGAYLE" ColumnName="CONGNGAYLE" />
-          <ScalarProperty Name="NGAYPHEP" ColumnName="NGAYPHEP" />
-          <ScalarProperty Name="GIORA" ColumnName="GIORA" />
-          <ScalarProperty Name="GIOVAO" ColumnName="GIOVAO" />
-          <ScalarProperty Name="THU" ColumnName="THU" />
-          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
-          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
-          <ScalarProperty Name="MANV" ColumnName="MANV" />
-          <ScalarProperty Name="MACTY" ColumnName="MACTY" />
-          <ScalarProperty Name="MAKYCONG" ColumnName="MAKYCONG" />
-          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

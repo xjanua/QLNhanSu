@@ -39,6 +39,8 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.gcBangCongChiTiet = new DevExpress.XtraGrid.GridControl();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mnCapNhatNgayCong = new System.Windows.Forms.ToolStripMenuItem();
             this.gvBangCongChiTiet = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridView();
             this.THONGTIN = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.colMaNV = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -100,16 +102,14 @@
             this.btnHuy = new DevExpress.XtraBars.BarButtonItem();
             this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.mnCapNhatNgayCong = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gcBangCongChiTiet)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvBangCongChiTiet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
-            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // barButtonItem8
@@ -228,6 +228,20 @@
             this.gcBangCongChiTiet.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvBangCongChiTiet});
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnCapNhatNgayCong});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(182, 26);
+            // 
+            // mnCapNhatNgayCong
+            // 
+            this.mnCapNhatNgayCong.Name = "mnCapNhatNgayCong";
+            this.mnCapNhatNgayCong.Size = new System.Drawing.Size(181, 22);
+            this.mnCapNhatNgayCong.Text = "Cập nhật ngày công";
+            this.mnCapNhatNgayCong.Click += new System.EventHandler(this.mnCapNhatNgayCong_Click_1);
+            // 
             // gvBangCongChiTiet
             // 
             this.gvBangCongChiTiet.Appearance.FocusedCell.BackColor = System.Drawing.Color.Khaki;
@@ -296,6 +310,7 @@
             this.gvBangCongChiTiet.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
             this.gvBangCongChiTiet.IndicatorWidth = 40;
             this.gvBangCongChiTiet.Name = "gvBangCongChiTiet";
+            this.gvBangCongChiTiet.OptionsBehavior.Editable = false;
             this.gvBangCongChiTiet.OptionsCustomization.AllowFilter = false;
             this.gvBangCongChiTiet.OptionsCustomization.AllowGroup = false;
             this.gvBangCongChiTiet.OptionsCustomization.AllowSort = false;
@@ -309,6 +324,7 @@
             this.gvBangCongChiTiet.OptionsView.ShowIndicator = false;
             this.gvBangCongChiTiet.RowHeight = 28;
             this.gvBangCongChiTiet.VertScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
+            this.gvBangCongChiTiet.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gvBangCongChiTiet_CustomDrawCell);
             // 
             // THONGTIN
             // 
@@ -1062,20 +1078,6 @@
             // 
             this.bandedGridColumn1.Name = "bandedGridColumn1";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnCapNhatNgayCong});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(182, 26);
-            // 
-            // mnCapNhatNgayCong
-            // 
-            this.mnCapNhatNgayCong.Name = "mnCapNhatNgayCong";
-            this.mnCapNhatNgayCong.Size = new System.Drawing.Size(181, 22);
-            this.mnCapNhatNgayCong.Text = "Cập nhật ngày công";
-            this.mnCapNhatNgayCong.Click += new System.EventHandler(this.mnCapNhatNgayCong_Click_1);
-            // 
             // frmBangCongChiTiet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1097,9 +1099,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gcBangCongChiTiet)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gvBangCongChiTiet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
-            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

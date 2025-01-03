@@ -351,13 +351,13 @@
             // 
             // ribbonPageGroup2
             // 
+            this.ribbonPageGroup2.ItemLinks.Add(this.btnNhanVien, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem1, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.btnBoPhan, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.btnTrinhDo, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.btnDanToc, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.btnTonGiao, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.btnPhongBan, true);
-            this.ribbonPageGroup2.ItemLinks.Add(this.btnNhanVien, true);
             this.ribbonPageGroup2.ItemLinks.Add(this.btnCongTy, true);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "Danh mục dùng chung";
@@ -402,6 +402,8 @@
             // 
             // MainForm
             // 
+            this.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 786);
@@ -409,7 +411,7 @@
             this.IsMdiContainer = true;
             this.Name = "MainForm";
             this.Ribbon = this.ribbonControl1;
-            this.Text = "btn";
+            this.Text = "Phần mềm quản lí nhân sự";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();

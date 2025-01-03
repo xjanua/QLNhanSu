@@ -243,7 +243,7 @@ namespace QLNHANSU
                 cboChucVu.SelectedValue = nv.IDCV;
                 cboDanToc.SelectedValue = nv.IDDANTOC;
                 cboTonGiao.SelectedValue = nv.IDTONGIAO;
-                //nv.MACTY = 1;
+                nv.MACTY = 1;
             }
         }
 

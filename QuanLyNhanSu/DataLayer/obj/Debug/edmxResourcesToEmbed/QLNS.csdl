@@ -77,8 +77,8 @@
       <End Role="tb_NHANVIEN_PHUCAP" EntitySet="tb_NHANVIEN_PHUCAP" />
     </AssociationSet>
     <EntitySet Name="tb_KYCONGCHITIET" EntityType="QuanLyNhanSuModel.tb_KYCONGCHITIET" />
-    <EntitySet Name="tb_KYCONG" EntityType="QuanLyNhanSuModel.tb_KYCONG" />
     <EntitySet Name="tb_BANGCONG_NV_CT" EntityType="QuanLyNhanSuModel.tb_BANGCONG_NV_CT" />
+    <EntitySet Name="tb_KYCONG" EntityType="QuanLyNhanSuModel.tb_KYCONG" />
   </EntityContainer>
   <EntityType Name="tb_BANGCONG">
     <Key>
@@ -554,25 +554,6 @@
     <Property Name="UPDATED_BY" Type="Int32" />
     <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
   </EntityType>
-  <EntityType Name="tb_KYCONG">
-    <Key>
-      <PropertyRef Name="MAKYCONG" />
-    </Key>
-    <Property Name="MAKYCONG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="THANG" Type="Int32" />
-    <Property Name="NAM" Type="Int32" />
-    <Property Name="KHOA" Type="Boolean" />
-    <Property Name="NGAYTINHCONG" Type="DateTime" Precision="3" />
-    <Property Name="NGAYCONGTRONGTHANG" Type="Double" />
-    <Property Name="MACTY" Type="Int32" />
-    <Property Name="TRANGTHAI" Type="Boolean" />
-    <Property Name="CREATED_BY" Type="Int32" />
-    <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
-    <Property Name="UPDATED_BY" Type="Int32" />
-    <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
-    <Property Name="DELETED_BY" Type="Int32" />
-    <Property Name="DELETED_DATE" Type="DateTime" Precision="3" />
-  </EntityType>
   <EntityType Name="tb_BANGCONG_NV_CT">
     <Key>
       <PropertyRef Name="ID" />
@@ -589,11 +570,31 @@
     <Property Name="NGAYPHEP" Type="Double" />
     <Property Name="CONGNGAYLE" Type="Double" />
     <Property Name="CONGCHUNHAT" Type="Double" />
+    <Property Name="NGAYCONG" Type="Double" />
     <Property Name="KYHIEU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="GHICHU" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
     <Property Name="CREATED_BY" Type="Int32" />
     <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
     <Property Name="UPDATED_BY" Type="Int32" />
     <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tb_KYCONG">
+    <Key>
+      <PropertyRef Name="MAKYCONG" />
+    </Key>
+    <Property Name="MAKYCONG" Type="Int32" Nullable="false" />
+    <Property Name="THANG" Type="Int32" />
+    <Property Name="NAM" Type="Int32" />
+    <Property Name="KHOA" Type="Boolean" />
+    <Property Name="NGAYTINHCONG" Type="DateTime" Precision="3" />
+    <Property Name="NGAYCONGTRONGTHANG" Type="Double" />
+    <Property Name="MACTY" Type="Int32" />
+    <Property Name="TRANGTHAI" Type="Boolean" />
+    <Property Name="CREATED_BY" Type="Int32" />
+    <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="UPDATED_BY" Type="Int32" />
+    <Property Name="UPDATED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="DELETED_BY" Type="Int32" />
+    <Property Name="DELETED_DATE" Type="DateTime" Precision="3" />
   </EntityType>
 </Schema>

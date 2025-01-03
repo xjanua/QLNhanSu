@@ -39,8 +39,8 @@
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_UNGLUONG_tb_NhanVien" />
         <AssociationConnector Association="QuanLyNhanSuModel.FK_tb_NHANVIEN_PHUCAP_tb_PHUCAP" />
         <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_KYCONGCHITIET" Width="1.5" PointX="10.375" PointY="10.75" />
-        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_KYCONG" Width="1.5" PointX="11.375" PointY="0.75" />
         <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_BANGCONG_NV_CT" Width="1.5" PointX="12.375" PointY="10.75" />
+        <EntityTypeShape EntityType="QuanLyNhanSuModel.tb_KYCONG" Width="1.5" PointX="8.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

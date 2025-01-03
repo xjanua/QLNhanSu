@@ -30,6 +30,7 @@
     <Property Name="NGAYPHEP" Type="float" />
     <Property Name="CONGNGAYLE" Type="float" />
     <Property Name="CONGCHUNHAT" Type="float" />
+    <Property Name="NGAYCONG" Type="float" />
     <Property Name="KYHIEU" Type="nvarchar" MaxLength="50" />
     <Property Name="GHICHU" Type="nvarchar" MaxLength="500" />
     <Property Name="CREATED BY" Type="int" />
@@ -104,7 +105,7 @@
     <Key>
       <PropertyRef Name="MAKYCONG" />
     </Key>
-    <Property Name="MAKYCONG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MAKYCONG" Type="int" Nullable="false" />
     <Property Name="THANG" Type="int" />
     <Property Name="NAM" Type="int" />
     <Property Name="KHOA" Type="bit" />

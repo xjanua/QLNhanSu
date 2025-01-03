@@ -175,38 +175,34 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlTop.Size = new System.Drawing.Size(967, 30);
+            this.barDockControlTop.Size = new System.Drawing.Size(1146, 24);
             this.barDockControlTop.Click += new System.EventHandler(this.barDockControlTop_Click);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 612);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 610);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlBottom.Size = new System.Drawing.Size(967, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1146, 20);
             this.barDockControlBottom.Click += new System.EventHandler(this.barDockControlBottom_Click);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 30);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 582);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 586);
             this.barDockControlLeft.Click += new System.EventHandler(this.barDockControlLeft_Click);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(967, 30);
+            this.barDockControlRight.Location = new System.Drawing.Point(1146, 24);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 582);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 586);
             this.barDockControlRight.Click += new System.EventHandler(this.barDockControlRight_Click);
             // 
             // barButtonItem1
@@ -217,8 +213,7 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 30);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 24);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -230,18 +225,16 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.gcDanhSach);
-            this.splitContainer1.Size = new System.Drawing.Size(967, 582);
-            this.splitContainer1.SplitterDistance = 139;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(1146, 586);
+            this.splitContainer1.SplitterDistance = 92;
             this.splitContainer1.TabIndex = 4;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(314, 50);
-            this.txtTen.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTen.Location = new System.Drawing.Point(113, 36);
             this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(251, 23);
+            this.txtTen.Size = new System.Drawing.Size(216, 21);
             this.txtTen.TabIndex = 1;
             this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
             // 
@@ -249,10 +242,9 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(208, 50);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.labelControl1.Location = new System.Drawing.Point(22, 37);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(108, 23);
+            this.labelControl1.Size = new System.Drawing.Size(85, 18);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Tên dân tộc:";
             this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
@@ -260,13 +252,11 @@
             // gcDanhSach
             // 
             this.gcDanhSach.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gcDanhSach.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.gcDanhSach.Location = new System.Drawing.Point(0, 0);
             this.gcDanhSach.MainView = this.gvDanhSach;
-            this.gcDanhSach.Margin = new System.Windows.Forms.Padding(4);
             this.gcDanhSach.MenuManager = this.barManager1;
             this.gcDanhSach.Name = "gcDanhSach";
-            this.gcDanhSach.Size = new System.Drawing.Size(967, 438);
+            this.gcDanhSach.Size = new System.Drawing.Size(1146, 490);
             this.gcDanhSach.TabIndex = 0;
             this.gcDanhSach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvDanhSach});
@@ -277,10 +267,8 @@
             this.gvDanhSach.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.ID,
             this.TENDT});
-            this.gvDanhSach.DetailHeight = 431;
             this.gvDanhSach.GridControl = this.gcDanhSach;
             this.gvDanhSach.Name = "gvDanhSach";
-            this.gvDanhSach.OptionsEditForm.PopupEditFormWidth = 933;
             this.gvDanhSach.OptionsView.ShowGroupPanel = false;
             this.gvDanhSach.Click += new System.EventHandler(this.gvDanhSach_Click);
             // 
@@ -290,12 +278,12 @@
             this.ID.AppearanceHeader.Options.UseFont = true;
             this.ID.Caption = "ID";
             this.ID.FieldName = "ID";
-            this.ID.MaxWidth = 35;
-            this.ID.MinWidth = 35;
+            this.ID.MaxWidth = 30;
+            this.ID.MinWidth = 30;
             this.ID.Name = "ID";
             this.ID.Visible = true;
             this.ID.VisibleIndex = 0;
-            this.ID.Width = 35;
+            this.ID.Width = 30;
             // 
             // TENDT
             // 
@@ -303,24 +291,23 @@
             this.TENDT.AppearanceHeader.Options.UseFont = true;
             this.TENDT.Caption = "TEN DAN TOC";
             this.TENDT.FieldName = "TENDT";
-            this.TENDT.MaxWidth = 233;
-            this.TENDT.MinWidth = 233;
+            this.TENDT.MaxWidth = 200;
+            this.TENDT.MinWidth = 200;
             this.TENDT.Name = "TENDT";
             this.TENDT.Visible = true;
             this.TENDT.VisibleIndex = 1;
-            this.TENDT.Width = 233;
+            this.TENDT.Width = 200;
             // 
             // frmDanToc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 632);
+            this.ClientSize = new System.Drawing.Size(1146, 630);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDanToc";
             this.Text = "Dân Tộc";
             this.Load += new System.EventHandler(this.frmDanToc_Load);

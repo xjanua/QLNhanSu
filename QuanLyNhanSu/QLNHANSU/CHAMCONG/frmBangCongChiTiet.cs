@@ -34,6 +34,7 @@ namespace QLNHANSU.CHAMCONG
         public int _thang;
         public int _nam;
 
+
         private void CustomView(int thang, int nam)
         {
             gvBangCongChiTiet.RestoreLayoutFromXml(Application.StartupPath + @"\BangCong_Layout.xml");
@@ -236,7 +237,7 @@ namespace QLNHANSU.CHAMCONG
         {
             SplashScreenManager.ShowForm(typeof(frmWaiting), true, true);
 
-            _makycong = (int.Parse(cboNam.Text) * 100 + int.Parse(cboThang.Text)) % 10;
+            _makycong = (int.Parse(cboNam.Text) * 100 + int.Parse(cboThang.Text)); //% 10;
 
 
             if (_kycong.KiemTraPhatSinhKyCong(_makycong))
@@ -263,7 +264,17 @@ namespace QLNHANSU.CHAMCONG
                     bcct.NGAYPHEP = 0;
                     bcct.CONGNGAYLE = 0;
                     bcct.CONGCHUNHAT = 0;
-                    bcct.KYHIEU = (bcct.THU == "Chủ nhật") ? "CN" : "X";
+                    if (bcct.THU == "Chủ nhật")
+                    {
+                        bcct.KYHIEU = "CN";
+                        bcct.NGAYCONG = 0;
+                    }
+                    else
+                    {
+                        bcct.KYHIEU = "X";
+                        bcct.NGAYCONG = 1;
+                    }
+
                     bcct.MAKYCONG = _makycong;
                     bcct.CREATED_DATE = DateTime.Now;
                     bcct.CREATED_BY = 1;
@@ -271,8 +282,8 @@ namespace QLNHANSU.CHAMCONG
                 }
             }
 
-
             var kc = _kycong.getItem(_makycong);
+
 
             kc.TRANGTHAI = true;
             _kycong.Update(kc);
@@ -293,6 +304,35 @@ namespace QLNHANSU.CHAMCONG
             frm._hoten = gvBangCongChiTiet.GetFocusedRowCellValue("HOTEN").ToString();
             frm._ngay = gvBangCongChiTiet.FocusedColumn.FieldName.ToString();
             frm.ShowDialog();
+        }
+
+        private void gvBangCongChiTiet_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            if (e.CellValue == null)
+            {
+            }
+            else
+            {
+                if (e.CellValue.ToString() == "VR")
+                {
+                    e.Appearance.BackColor = Color.MediumSeaGreen; // Màu xanh nhạt dễ nhìn
+                    e.Appearance.ForeColor = Color.Black;         // Chữ đen để nổi bật
+                }
+
+                if (e.CellValue.ToString() == "P")
+                {
+                    e.Appearance.BackColor = Color.LightSkyBlue;  // Màu xanh nhạt gần nền trắng
+                    e.Appearance.ForeColor = Color.DarkOrange;    // Chữ cam đậm dễ nhìn
+                }
+
+                if (e.CellValue.ToString() == "V")
+                {
+                    e.Appearance.BackColor = Color.Salmon;        // Màu đỏ nhạt dịu mắt
+                    e.Appearance.ForeColor = Color.Black;         // Chữ đen cho độ tương phản tốt
+                }
+            }
+
+
         }
     }
 }

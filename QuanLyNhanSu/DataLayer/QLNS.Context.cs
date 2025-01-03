@@ -45,7 +45,7 @@ namespace DataLayer
         public virtual DbSet<tb_TRINHDO> tb_TRINHDO { get; set; }
         public virtual DbSet<tb_UNGLUONG> tb_UNGLUONG { get; set; }
         public virtual DbSet<tb_KYCONGCHITIET> tb_KYCONGCHITIET { get; set; }
-        public virtual DbSet<tb_KYCONG> tb_KYCONG { get; set; }
         public virtual DbSet<tb_BANGCONG_NV_CT> tb_BANGCONG_NV_CT { get; set; }
+        public virtual DbSet<tb_KYCONG> tb_KYCONG { get; set; }
     }
 }

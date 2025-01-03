@@ -37,10 +37,10 @@
             this.btnCapNhat = new DevExpress.XtraEditors.SimpleButton();
             this.btnThoat = new DevExpress.XtraEditors.SimpleButton();
             this.lbl = new DevExpress.XtraEditors.GroupControl();
-            this.labelID = new System.Windows.Forms.Label();
-            this.lblID = new System.Windows.Forms.Label();
             this.lblHoTen = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblID = new System.Windows.Forms.Label();
+            this.labelID = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rdgChamCong.Properties)).BeginInit();
@@ -143,26 +143,6 @@
             this.lbl.Text = "Thông tin nhân viên";
             this.lbl.Paint += new System.Windows.Forms.PaintEventHandler(this.lbl_Paint);
             // 
-            // labelID
-            // 
-            this.labelID.AutoSize = true;
-            this.labelID.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.labelID.Location = new System.Drawing.Point(6, 27);
-            this.labelID.Name = "labelID";
-            this.labelID.Size = new System.Drawing.Size(23, 13);
-            this.labelID.TabIndex = 0;
-            this.labelID.Text = "ID:";
-            // 
-            // lblID
-            // 
-            this.lblID.AutoSize = true;
-            this.lblID.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblID.Location = new System.Drawing.Point(59, 27);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(34, 13);
-            this.lblID.TabIndex = 1;
-            this.lblID.Text = "IDNV";
-            // 
             // lblHoTen
             // 
             this.lblHoTen.AutoSize = true;
@@ -182,6 +162,26 @@
             this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Họ tên:";
+            // 
+            // lblID
+            // 
+            this.lblID.AutoSize = true;
+            this.lblID.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.lblID.Location = new System.Drawing.Point(59, 27);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(34, 13);
+            this.lblID.TabIndex = 1;
+            this.lblID.Text = "IDNV";
+            // 
+            // labelID
+            // 
+            this.labelID.AutoSize = true;
+            this.labelID.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.labelID.Location = new System.Drawing.Point(6, 27);
+            this.labelID.Name = "labelID";
+            this.labelID.Size = new System.Drawing.Size(23, 13);
+            this.labelID.TabIndex = 0;
+            this.labelID.Text = "ID:";
             // 
             // frmCapNhatNgayCong
             // 

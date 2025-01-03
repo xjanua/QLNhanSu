@@ -287,7 +287,7 @@
             this.dtNgayBatDau.CustomFormat = "dd/MM/yyyy";
             this.dtNgayBatDau.Font = new System.Drawing.Font("Tahoma", 10F);
             this.dtNgayBatDau.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtNgayBatDau.Location = new System.Drawing.Point(185, 58);
+            this.dtNgayBatDau.Location = new System.Drawing.Point(185, 61);
             this.dtNgayBatDau.Name = "dtNgayBatDau";
             this.dtNgayBatDau.Size = new System.Drawing.Size(168, 24);
             this.dtNgayBatDau.TabIndex = 7;
@@ -295,7 +295,7 @@
             // txtSoHD
             // 
             this.txtSoHD.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.txtSoHD.Location = new System.Drawing.Point(185, 14);
+            this.txtSoHD.Location = new System.Drawing.Point(185, 13);
             this.txtSoHD.Name = "txtSoHD";
             this.txtSoHD.ReadOnly = true;
             this.txtSoHD.Size = new System.Drawing.Size(168, 24);
@@ -305,7 +305,7 @@
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(604, 20);
+            this.labelControl6.Location = new System.Drawing.Point(604, 17);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(61, 16);
             this.labelControl6.TabIndex = 5;
@@ -325,7 +325,7 @@
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(410, 22);
+            this.labelControl4.Location = new System.Drawing.Point(410, 17);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(46, 17);
             this.labelControl4.TabIndex = 3;
@@ -335,7 +335,7 @@
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(82, 115);
+            this.labelControl3.Location = new System.Drawing.Point(82, 113);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(92, 17);
             this.labelControl3.TabIndex = 2;
@@ -355,7 +355,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(82, 22);
+            this.labelControl1.Location = new System.Drawing.Point(82, 17);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(44, 17);
             this.labelControl1.TabIndex = 0;
@@ -567,7 +567,7 @@
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(410, 116);
+            this.labelControl9.Location = new System.Drawing.Point(410, 113);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(58, 17);
             this.labelControl9.TabIndex = 16;
@@ -597,7 +597,7 @@
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(82, 162);
+            this.labelControl7.Location = new System.Drawing.Point(82, 166);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(49, 16);
             this.labelControl7.TabIndex = 12;

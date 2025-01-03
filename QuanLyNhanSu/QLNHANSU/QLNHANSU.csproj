@@ -314,6 +314,9 @@
   <ItemGroup>
     <None Include="Resources\no-picture-available-icon-20.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_341773904_wLeSTVp07MoYNVa1r85kNnjKKpVr5qns1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

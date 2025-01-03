@@ -48,7 +48,9 @@
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.searchLookUpEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colSOHD = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colMANV = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colHoTen = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.lkHeSoLuong = new DevExpress.XtraGrid.Columns.GridColumn();
             this.dtNgayLenLuong = new System.Windows.Forms.DateTimePicker();
             this.txtSoQD = new System.Windows.Forms.TextBox();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
@@ -75,8 +77,6 @@
             this.dtNgayKy = new System.Windows.Forms.DateTimePicker();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.lkHeSoLuong = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colMANV = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.slkHopDong.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchLookUpEdit1View)).BeginInit();
@@ -98,7 +98,7 @@
             // 
             // slkHopDong
             // 
-            this.slkHopDong.Location = new System.Drawing.Point(166, 61);
+            this.slkHopDong.Location = new System.Drawing.Point(166, 65);
             this.slkHopDong.MenuManager = this.barManager1;
             this.slkHopDong.Name = "slkHopDong";
             this.slkHopDong.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
@@ -273,6 +273,17 @@
             this.colSOHD.VisibleIndex = 0;
             this.colSOHD.Width = 80;
             // 
+            // colMANV
+            // 
+            this.colMANV.Caption = "MANV";
+            this.colMANV.FieldName = "MANV";
+            this.colMANV.MaxWidth = 30;
+            this.colMANV.MinWidth = 30;
+            this.colMANV.Name = "colMANV";
+            this.colMANV.Visible = true;
+            this.colMANV.VisibleIndex = 1;
+            this.colMANV.Width = 30;
+            // 
             // colHoTen
             // 
             this.colHoTen.Caption = "Họ Tên";
@@ -284,12 +295,23 @@
             this.colHoTen.VisibleIndex = 2;
             this.colHoTen.Width = 200;
             // 
+            // lkHeSoLuong
+            // 
+            this.lkHeSoLuong.Caption = "Hệ Số Lương";
+            this.lkHeSoLuong.FieldName = "HESOLUONG";
+            this.lkHeSoLuong.MaxWidth = 150;
+            this.lkHeSoLuong.MinWidth = 150;
+            this.lkHeSoLuong.Name = "lkHeSoLuong";
+            this.lkHeSoLuong.Visible = true;
+            this.lkHeSoLuong.VisibleIndex = 3;
+            this.lkHeSoLuong.Width = 150;
+            // 
             // dtNgayLenLuong
             // 
             this.dtNgayLenLuong.CustomFormat = "dd/MM/yyyy";
             this.dtNgayLenLuong.Font = new System.Drawing.Font("Tahoma", 10F);
             this.dtNgayLenLuong.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtNgayLenLuong.Location = new System.Drawing.Point(771, 22);
+            this.dtNgayLenLuong.Location = new System.Drawing.Point(771, 19);
             this.dtNgayLenLuong.Name = "dtNgayLenLuong";
             this.dtNgayLenLuong.Size = new System.Drawing.Size(168, 24);
             this.dtNgayLenLuong.TabIndex = 7;
@@ -297,7 +319,7 @@
             // txtSoQD
             // 
             this.txtSoQD.Font = new System.Drawing.Font("Tahoma", 9F);
-            this.txtSoQD.Location = new System.Drawing.Point(149, 19);
+            this.txtSoQD.Location = new System.Drawing.Point(149, 20);
             this.txtSoQD.Name = "txtSoQD";
             this.txtSoQD.ReadOnly = true;
             this.txtSoQD.Size = new System.Drawing.Size(168, 22);
@@ -307,7 +329,7 @@
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(82, 64);
+            this.labelControl6.Location = new System.Drawing.Point(82, 69);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(76, 19);
             this.labelControl6.TabIndex = 5;
@@ -317,7 +339,7 @@
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(651, 24);
+            this.labelControl2.Location = new System.Drawing.Point(651, 22);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(114, 19);
             this.labelControl2.TabIndex = 1;
@@ -478,7 +500,7 @@
             // 
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(707, 104);
+            this.labelControl8.Location = new System.Drawing.Point(707, 101);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(104, 19);
             this.labelControl8.TabIndex = 21;
@@ -491,7 +513,7 @@
             0,
             0,
             0});
-            this.spHeSoLuongCu.Location = new System.Drawing.Point(621, 100);
+            this.spHeSoLuongCu.Location = new System.Drawing.Point(621, 99);
             this.spHeSoLuongCu.MenuManager = this.barManager1;
             this.spHeSoLuongCu.Name = "spHeSoLuongCu";
             this.spHeSoLuongCu.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
@@ -506,7 +528,7 @@
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(486, 102);
+            this.labelControl7.Location = new System.Drawing.Point(486, 101);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(129, 19);
             this.labelControl7.TabIndex = 19;
@@ -530,7 +552,7 @@
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(82, 100);
+            this.labelControl5.Location = new System.Drawing.Point(82, 101);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(60, 19);
             this.labelControl5.TabIndex = 16;
@@ -540,7 +562,7 @@
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(379, 68);
+            this.labelControl4.Location = new System.Drawing.Point(379, 69);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(77, 19);
             this.labelControl4.TabIndex = 14;
@@ -570,33 +592,11 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(82, 22);
+            this.labelControl1.Location = new System.Drawing.Point(82, 23);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(44, 17);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Số HĐ:";
-            // 
-            // lkHeSoLuong
-            // 
-            this.lkHeSoLuong.Caption = "Hệ Số Lương";
-            this.lkHeSoLuong.FieldName = "HESOLUONG";
-            this.lkHeSoLuong.MaxWidth = 150;
-            this.lkHeSoLuong.MinWidth = 150;
-            this.lkHeSoLuong.Name = "lkHeSoLuong";
-            this.lkHeSoLuong.Visible = true;
-            this.lkHeSoLuong.VisibleIndex = 3;
-            this.lkHeSoLuong.Width = 150;
-            // 
-            // colMANV
-            // 
-            this.colMANV.Caption = "MANV";
-            this.colMANV.FieldName = "MANV";
-            this.colMANV.MaxWidth = 30;
-            this.colMANV.MinWidth = 30;
-            this.colMANV.Name = "colMANV";
-            this.colMANV.Visible = true;
-            this.colMANV.VisibleIndex = 1;
-            this.colMANV.Width = 30;
             // 
             // frmQuanLyLuong
             // 
