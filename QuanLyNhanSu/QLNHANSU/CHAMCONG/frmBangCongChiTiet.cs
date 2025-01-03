@@ -191,8 +191,9 @@ namespace QLNHANSU.CHAMCONG
             return dayNumber;
         }
 
-        void loadBangCong()
+        public void loadBangCong()
         {
+            _kcct = new KYCONGCHITIET();
             gcBangCongChiTiet.DataSource = _kcct.getList(int.Parse(cboNam.Text) * 100 + int.Parse(cboThang.Text));
             CustomView(int.Parse(cboThang.Text), int.Parse(cboNam.Text));
             gvBangCongChiTiet.OptionsBehavior.Editable = false;
@@ -286,6 +287,7 @@ namespace QLNHANSU.CHAMCONG
         private void mnCapNhatNgayCong_Click_1(object sender, EventArgs e)
         {
             frmCapNhatNgayCong frm = new frmCapNhatNgayCong();
+            _makycong = (int.Parse(cboNam.Text) * 100 + int.Parse(cboThang.Text));
             frm._makycong = _makycong;
             frm._manv = int.Parse(gvBangCongChiTiet.GetFocusedRowCellValue("MANV").ToString());
             frm._hoten = gvBangCongChiTiet.GetFocusedRowCellValue("HOTEN").ToString();

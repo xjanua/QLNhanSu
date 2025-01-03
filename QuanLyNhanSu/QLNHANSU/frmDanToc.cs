@@ -65,6 +65,7 @@ namespace QLNHANSU
             else
             {
                 var dt = _dantoc.getItem(_id);
+
                 dt.TENDT = txtTen.Text;
                 _dantoc.Update(dt);
             }

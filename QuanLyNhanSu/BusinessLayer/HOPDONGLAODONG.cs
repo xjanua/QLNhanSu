@@ -10,29 +10,38 @@ namespace BusinessLayer
     public class HOPDONGLAODONG
     {
         QuanLyNhanSuEntities1 db = new QuanLyNhanSuEntities1();
+
         public tb_HOPDONG getItem(string sohd)
         {
             return db.tb_HOPDONG.FirstOrDefault(x => x.SOHD == sohd);
         }
+
         public List<HOPDONG_DTO> getItemFull(string sohd)
         {
             List<tb_HOPDONG> lstHD = db.tb_HOPDONG.Where(x => x.SOHD == sohd).ToList();
+
             List<HOPDONG_DTO> lstDTO = new List<HOPDONG_DTO>();
+
             HOPDONG_DTO hd;
+
             foreach (var item in lstHD)
             {
                 hd = new HOPDONG_DTO();
+
                 hd.SOHD = item.SOHD;
                 hd.NGAYBATDAU = item.NGAYBATDAU;
                 hd.NGAYKETTHUC = item.NGAYKETTHUC;
                 string formattedDate = hd.NGAYKY.HasValue ? hd.NGAYKY.Value.ToString("dd/MM/yyyy") : "N/A";
+
                 hd.LANKY = item.LANKY;
                 hd.HESOLUONG = item.HESOLUONG;
                 hd.NOIDUNG = item.NOIDUNG;
                 hd.MANV = item.MANV;
                 hd.THOIHAN = item.THOIHAN;
+
                 var nv = db.tb_NhanVien.FirstOrDefault(n => n.MaNV == item.MANV);
                 hd.HOTEN = nv.HOTEN;
+
                 hd.NGAYSINH = nv.NGAYSINH.Value.ToString("dd/MM/yyyy");
                 hd.CCCD = nv.CCCD;
                 hd.DIENTHOAI = nv.DIENTHOAI;
@@ -43,6 +52,7 @@ namespace BusinessLayer
                 hd.UPDATED_DATE = item.UPDATED_DATE;
                 hd.DELETED_BY = item.DELETED_BY;
                 hd.DELETED_DATE = item.DELETED_DATE;
+
                 hd.MACTY = item.MACTY;
                 lstDTO.Add(hd);
             }

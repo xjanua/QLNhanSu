@@ -26,13 +26,15 @@ namespace BusinessLayer
         {
             var lstNV = db.tb_NhanVien.ToList();
 
-            List<NHANVIEN_DTO> lstNVDTO = new List<NHANVIEN_DTO>();
-
             NHANVIEN_DTO nvDTO;
 
+            List<NHANVIEN_DTO> lstNVDTO = new List<NHANVIEN_DTO>();
+
+            
             foreach (var item in lstNV)
             {
                 nvDTO = new NHANVIEN_DTO();
+
                 nvDTO.MaNV = item.MaNV;
                 nvDTO.HOTEN = item.HOTEN;
                 nvDTO.GIOITINH = item.GIOITINH;
@@ -93,6 +95,7 @@ namespace BusinessLayer
             try
             {
                 var _nv = db.tb_NhanVien.FirstOrDefault(x => x.MaNV == nv.MaNV);
+
                 _nv.HOTEN = nv.HOTEN;
                 _nv.GIOITINH = nv.GIOITINH;
                 _nv.CCCD = nv.CCCD;
@@ -108,6 +111,7 @@ namespace BusinessLayer
                 _nv.MACTY = nv.MACTY;
                 _nv.HINHANH = nv.HINHANH;
                 _nv.DATHOIVIEC = nv.DATHOIVIEC;
+
                 db.SaveChanges();
                 return nv;
             }
@@ -122,6 +126,7 @@ namespace BusinessLayer
             try
             {
                 var _nv = db.tb_NhanVien.FirstOrDefault(x => x.MaNV == id);
+
                 db.tb_NhanVien.Remove(_nv);
                 db.SaveChanges();
             }

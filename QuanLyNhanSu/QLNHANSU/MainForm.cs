@@ -124,5 +124,10 @@ namespace QLNHANSU
             openForm(typeof(frmBangCong));
             SplashScreenManager.CloseForm();
         }
+
+        private void btnPhuCap_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
     }
 }
